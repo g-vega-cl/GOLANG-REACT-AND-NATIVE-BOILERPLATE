@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  const [fetchedData, setFetchedData] = useState();
+  const [fetchedData, setFetchedData] = useState("");
 
   useEffect(() => {
     const fetchSomeData = async () => {
